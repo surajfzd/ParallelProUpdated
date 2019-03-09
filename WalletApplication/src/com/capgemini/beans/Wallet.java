@@ -6,7 +6,7 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 @Embeddable
 public class Wallet {
-	@Column(name = "Balance")
+	
 	private BigDecimal balance;
 
 	public Wallet() {

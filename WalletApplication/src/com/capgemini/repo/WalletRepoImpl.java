@@ -19,7 +19,6 @@ import com.capgemini.util.ConnectionUtil;
 
 public class WalletRepoImpl implements WalletRepo {
 
-	// ConnectionUtil cu=new ConnectionUtil();
 
 	@Override
 	public boolean save(Customer customer) {
